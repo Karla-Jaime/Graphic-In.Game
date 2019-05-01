@@ -21,9 +21,9 @@ public class MyCharacter : MonoBehaviour
                
     }
 
-    private void update()
+    private void Update()
     {
-        render.material.SetFloat("_ColorPower", colorPower);
+        render.material.SetFloat("_ColorPower", sld_colorPower.value);
     }
 
 }
